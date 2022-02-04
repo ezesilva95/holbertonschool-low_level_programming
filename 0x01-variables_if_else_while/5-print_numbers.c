@@ -1,17 +1,16 @@
 #include<stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- *main - entry
- *Return: 0
- */
+*main - entry
+Return: 0
+*/
 int main(void)
 {
-	int n;
+	char n;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-		printf("\n");
-
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
 	return (0);
 }
