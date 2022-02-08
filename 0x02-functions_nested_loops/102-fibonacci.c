@@ -7,8 +7,8 @@ int main(void)
 {
 	int sum, a, b, c;
 
-	a = 1;
-	b = 2;
+	a = 0;
+	b = 1;
 
 	for (sum = 0; sum <= 50; sum++)
 	{
