@@ -11,9 +11,10 @@ int main(void)
 	{
 		if (n % 3 == 0 || n % 5 == 0)
 		{
-			res += n;
+			res = res + n;
 		}
 		printf("%d\n", res);
-		return (0);
+		
 	}
+	return (0);
 }
