@@ -16,7 +16,7 @@ int main(void)
 		a = b;
 		b = c;
 		printf("%lu", c);
-	if (sum == 49 )
+	if (sum == 49)
 	{
 		putchar('\n');
 	}
