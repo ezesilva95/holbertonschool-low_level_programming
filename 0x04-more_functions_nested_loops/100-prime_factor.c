@@ -25,7 +25,7 @@ int main(void)
 		}
 		if (n == 1)
 		{
-			printf("%ld is the largest prim factor'\n'", maxFactor);
+			printf("%ld'\n'", maxFactor);
 		}
 	}
 	return (0);
