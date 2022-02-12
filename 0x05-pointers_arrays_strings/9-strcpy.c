@@ -7,7 +7,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int copy = 0;
+	int copy;
 
 	while (src[copy])
 	{
@@ -15,5 +15,4 @@ char *_strcpy(char *dest, char *src)
 		copy++;
 	}
 	return (dest);
-	_putchar('\n');
 }
