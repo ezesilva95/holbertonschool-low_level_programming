@@ -15,4 +15,5 @@ char *_strcpy(char *dest, char *src)
 		copy++;
 	}
 	return (dest);
+	_putchar('\n');
 }
