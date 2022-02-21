@@ -4,7 +4,7 @@
  * @s: string 1
  * @b: char
  * @n: int
- * Return: s
+ * Return: s memory area
  */
 char *_memset(char *s, char b, unsigned int n)
 {
