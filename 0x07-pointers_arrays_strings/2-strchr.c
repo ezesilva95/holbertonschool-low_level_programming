@@ -2,7 +2,7 @@
 /**
  * _strchr - Function that locates a character un a string
  * @s: srtring in where we search a character
- * @c: character c
+ * @c: character
  * Return: character c or NULL
  */
 char *_strchr(char *s, char c)
