@@ -20,13 +20,13 @@ int sqroot(int n, int a)
 	return (sqroot(n, a + 1));
 }
 /**
- *  *_sqrt_recursion - functi?n that retunrs the natural square root of a number
- *   *sqroot - calculate a square root
- *    *@n: number
- *     *Return: nothing
- *      */
+ **_sqrt_recursion - functi?n that retunrs the natural square root of a number
+ *sqroot - calculate a square root
+ *@n: number
+ *Return: nothing
+ */
 int _sqrt_recursion(int n)
 {
-	        return (sqroot(n, 1));
+	return (sqroot(n, 1));
 }
 
