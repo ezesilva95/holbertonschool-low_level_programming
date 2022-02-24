@@ -29,4 +29,3 @@ int _sqrt_recursion(int n)
 {
 	return (sqroot(n, 1));
 }
-
