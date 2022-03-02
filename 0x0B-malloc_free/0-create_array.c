@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *
- *
- *
+ **create_array - unction that creates an array of chars
+ *@size: size
+ *@c: char
+ *Return: as
  */
 char *create_array(unsigned int size, char c)
 {
@@ -17,13 +18,13 @@ char *create_array(unsigned int size, char c)
 
 	a = malloc(size * sizeof(char));
 
-	if (size == NULL)
+	if (a == NULL)
 	{
 		return (NULL);
 	}
 	for (i = 0; i < size; i++)
 	{
-		s[i] = c;
+		a[i] = c;
 	}
-	return (s);
+	return (a);
 }
