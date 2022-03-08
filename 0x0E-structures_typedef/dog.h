@@ -13,12 +13,4 @@ typedef struct dog
 	char *owner;
 } dog_y;
 
-void init_dog(struct dog *d, char *name, float age, char *owner);
-
-void print_dog(struct dog *d);
-
-
-dog_y *new_dog(char *name, float age, char *owner);
-
-void free_dog(dog_y *d);
 #endif
