@@ -4,7 +4,7 @@
  *struct dog - asg
  *@name: name
  *@age: age
- *owner: owner
+ *@owner: owner
  */
 typedef struct dog
 {
