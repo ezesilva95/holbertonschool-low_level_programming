@@ -23,7 +23,8 @@ int main(int argc, char *argv[])
 
 	oprt = get_op_func(op)(num1, num2);
 
-	if (ops != '+' && ops != '-' && ops != '/' && ops != '*' && ops != '%')
+	if ((ops != '+' && ops != '-' && ops != '/' && ops != '*' && ops != '%')
+			|| argv[2][1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
