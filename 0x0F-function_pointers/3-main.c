@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int num2 = atoi(argv[3]);
 	char *op = argv[2];
 	int oprt;
-	int ops = argv[2][0];
+	int opc = argv[2][0];
 
 	if (argc != 4)
 	{
@@ -21,14 +21,14 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	oprt = get_op_func(op)(num1, num2);
 
-	if ((ops != '+' && ops != '-' && ops != '/' && ops != '*' && ops != '%')
+	if ((opc != '+' && opc != '-' && opc != '/' && opc != '*' && opc != '%')
 			|| argv[2][1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
 	}
+	oprt = get_op_func(op)(num1, num2);
 
 	printf("%d\n", oprt);
 	return (0);
