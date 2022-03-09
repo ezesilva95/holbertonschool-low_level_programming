@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *
- *
- *
+ *main - main
+ *@argc: argc
+ *@argv: argv
+ *Return: ..
  */
 int main(int argc, char *argv[])
 {
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	
+
 	oprt = get_op_func(op)(num1, num2);
 
 	if (ops != '+' && ops != '-' && ops != '/' && ops != '*' && ops != '%')
