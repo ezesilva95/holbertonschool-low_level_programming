@@ -9,11 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[3]);
-	char *op = argv[2];
-	int oprt;
-	int opc = argv[2][0];
+	int num1, num2, oprt, opc;
+	char *op;
 
 	if (argc != 4)
 	{
@@ -21,6 +18,10 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
+	op = argv[2];
+	opc = argv[2][0];
 
 	if ((opc != '+' && opc != '-' && opc != '/' && opc != '*' && opc != '%')
 			|| argv[2][1] != '\0')
