@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <stddef.h>
 /**
  *struct _list - singly linked list
  *@str: string - (malloc'ed string)
