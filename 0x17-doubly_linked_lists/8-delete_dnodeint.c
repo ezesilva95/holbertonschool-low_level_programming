@@ -24,7 +24,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (1);
 	}
 
-	idx = index - 1;
+	idx = index;
 	while (aux_node && cont != idx)
 	{
 		cont++;
