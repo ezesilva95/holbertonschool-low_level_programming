@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - functiont that adds a to b.
+ * add - function that adds a to b.
  * @a: a.
  * @b: b.
  * Return: result
