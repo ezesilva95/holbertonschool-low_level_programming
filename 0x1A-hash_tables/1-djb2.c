@@ -3,7 +3,7 @@
 /**
  * hash_djb2 - implementation of the djb2 algorithm
  * @str: string used to generate hash value
- * source code: https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8
+ * srce cd: https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8
  * Return: hash value
  */
 unsigned long int hash_djb2(const unsigned char *str)
