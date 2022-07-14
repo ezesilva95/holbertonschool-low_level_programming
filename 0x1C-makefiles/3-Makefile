@@ -9,7 +9,7 @@ RM = rm -f
 # all: builds your executable
 
 all: m.h $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+	$(CC) $(SRC) -o $(NAME)
 
 # clean: eletes all Emacs and Vim temporary files along with the executable
 clean:
