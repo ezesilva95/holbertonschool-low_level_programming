@@ -1,0 +1,24 @@
+CC = gcc
+SRC = main.c school.c
+ONJ = $(SRC:.c=.o)
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+.PHONY: all clean oclean fclean re
+
+#all: builds your executable
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+#clean: deletes all Emacs and Vim temporary files along with the executable
+clean:
+	$(RM) *~ $(NAME)
+
+#oclean:  deletes the object files
+oclean:
+	$(RM) $(OBJ)
+
+#fclean: eletes all Emacs and Vim temporary files, the executable, and the object files
+fclean: clean oclean
+
+#re: forces recompilation of all source files
+re: oclean all
