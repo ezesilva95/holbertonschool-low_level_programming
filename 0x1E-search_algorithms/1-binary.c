@@ -1,6 +1,6 @@
 #include "search_algos.h"
 /**
- * print_array - Write a funct that searches for a value in a sorted array of int
+ * print_array - Write a funct that searches for value in a sorted array of int
  * @array: array
  * @first: first element of the array
  * @last: last element of the array
